@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join SMOKE - Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header-container">
+        <img src="logo.png" alt="SMOKE Logo" class="logo">
+        <div class="header-text">
+            <h1>Join SMOKE</h1>
+            <p>Please fill out the form below to apply to the SMOKE clan.</p>
+        </div>
+        <a href="password.html" class="access-button">Access Password Page</a>
+    </header>
+
+    <form action="your-server-endpoint" method="POST">
+        <label for="steamID">Steam ID(s):</label><br>
+        <input type="text" id="steamID" name="steamID" required><br><br>
+
+        <label for="clans">Previous Clans:</label><br>
+        <input type="text" id="clans" name="clans"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="hours">In-Game Hours:</label><br>
+        <input type="number" id="hours" name="hours" required><br><br>
+
+        <label for="timezone">Time Zone:</label><br>
+        <input type="text" id="timezone" name="timezone" required><br><br>
+
+        <label for="favorite">Favorite thing to do in DoD:</label><br>
+        <input type="text" id="favorite" name="favorite"><br><br>
+
+        <label for="found">How you found out about SMOKE:</label><br>
+        <input type="text" id="found" name="found"><br><br>
+
+        <label for="reason">Reason for wanting to join SMOKE:</label><br>
+        <input type="text" id="reason" name="reason"><br><br>
+
+        <label for="mainDragon">Main Dragon:</label><br>
+        <input type="text" id="mainDragon" name="mainDragon" required><br><br>
+
+        <label for="training">Do you need training? If yes, on which dragon:</label><br>
+        <input type="text" id="training" name="training"><br><br>
+
+        <label for="english">Do you understand spoken English?</label><br>
+        <input type="text" id="english" name="english"><br><br>
+
+        <label for="voiceChat">Are you able to join voice chat and speak if needed?</label><br>
+        <input type="text" id="voiceChat" name="voiceChat"><br><br>
+
+        <button type="submit">Submit Application</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
